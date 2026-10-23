@@ -1,0 +1,3 @@
+-r requirements.txt
+# Solo para pruebas (TestClient de FastAPI)
+httpx2
