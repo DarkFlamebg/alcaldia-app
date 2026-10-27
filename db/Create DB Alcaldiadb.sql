@@ -1,3 +1,18 @@
+-- =====================================================================
+-- Uso en MySQL Workbench:
+--   1. Abre este archivo (File > Open SQL Script...)
+--   2. Ejecuta TODO el script (Ctrl+Shift+Enter o el rayo ⚡ sin selección)
+--   La base de datos se crea automáticamente y se selecciona.
+-- =====================================================================
+
+CREATE DATABASE IF NOT EXISTS alcaldia_db
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE alcaldia_db;
+
+-- ---------------------------------------------------------------------
+
 CREATE TABLE `roles` (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `nombre` varchar(50) UNIQUE NOT NULL COMMENT 'administrador, editor, periodista',

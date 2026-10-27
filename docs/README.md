@@ -6,6 +6,7 @@ se termina una parte del trabajo.
 
 | Archivo | Para qué sirve |
 | --- | --- |
+| [explicacion-del-proyecto.md](explicacion-del-proyecto.md) | **Empieza aquí.** El proyecto explicado de forma sencilla: cómo funciona, qué está hecho y qué falta |
 | [fases.md](fases.md) | Plan completo por fases y estado de cada una |
 | [requisitos.md](requisitos.md) | Requisitos del docente y cómo los cumple el proyecto |
 | [arquitectura.md](arquitectura.md) | Cómo se divide el sistema (MVC, carpetas, flujo de login) |
@@ -23,3 +24,4 @@ se termina una parte del trabajo.
 - **Backend (`backend/`):** API JSON en Python (FastAPI + SQLAlchemy + MySQL),
   organizada en MVC con POO. No tiene páginas HTML: solo responde JSON.
 - **Fase actual:** Fase 1 terminada (BD, login y CRUD de noticias con imagen).
+  Fase 2 avanzada: el portal ya muestra las noticias desde la BD.
